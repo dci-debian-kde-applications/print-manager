@@ -1,0 +1,15 @@
+Source: print-manager
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2), cmake, debhelper (>= 8),
+ pkg-kde-tools, libcups2-dev, pkg-config, kdelibs5-dev (>= 4:4.10.2)
+Standards-Version: 3.9.3
+
+Package: print-manager
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: system-config-printer-udev
+Description: printer config and monitor tool
+ system-config-printer-kde is a KDE configuration module for installing and
+ configuring printers and also contains a Plasma widget to manage print queues.
