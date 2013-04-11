@@ -1,4 +1,4 @@
-print-manager (4:4.10.2-0r0) UNRELEASED; urgency=low
+print-manager (4:4.10.2-1) experimental; urgency=low
 
   [ Debian Qt/KDE Maintainers ]
   * Initial release.
@@ -6,4 +6,4 @@ print-manager (4:4.10.2-0r0) UNRELEASED; urgency=low
   [ Sune Vuorela ]
   * Add myself to uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Apr 2013 15:07:45 +0200
+ -- Sune Vuorela <sune@debian.org>  Thu, 11 Apr 2013 22:02:27 +0000
