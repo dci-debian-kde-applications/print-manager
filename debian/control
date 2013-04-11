@@ -2,6 +2,7 @@ Source: print-manager
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.2), cmake, debhelper (>= 8),
  pkg-kde-tools, libcups2-dev, pkg-config, kdelibs5-dev (>= 4:4.10.2)
 Standards-Version: 3.9.3

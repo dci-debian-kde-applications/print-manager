@@ -1,5 +1,9 @@
 print-manager (4:4.10.2-0r0) UNRELEASED; urgency=low
 
+  [ Debian Qt/KDE Maintainers ]
   * Initial release.
+
+  [ Sune Vuorela ]
+  * Add myself to uploaders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Apr 2013 15:07:45 +0200
