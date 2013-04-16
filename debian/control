@@ -17,6 +17,9 @@ Package: print-manager
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: system-config-printer-udev
-Description: printer config and monitor tool
- system-config-printer-kde is a KDE configuration module for installing and
- configuring printers and also contains a Plasma widget to manage print queues.
+Description: printer configutation and monitoring tools
+ This package provides a KDE configuration module and a Plasma widget for
+ installing and configuring printers, and monitor printers, print jobs and
+ print queues.
+ .
+ This package is part of the KDE utilities module.
