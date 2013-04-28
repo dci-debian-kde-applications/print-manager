@@ -1,11 +1,11 @@
-print-manager (4:4.10.2-2) UNRELEASED; urgency=low
+print-manager (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Add Homepage, Vcs-Browser, and Vcs-Git headers.
   * Improve the descriptions.
   * Remove extra system-config-printer-udev recommend.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Apr 2013 16:23:14 +0200
+ -- Sune Vuorela <sune@debian.org>  Mon, 29 Apr 2013 01:57:14 +0200
 
 print-manager (4:4.10.2-1) experimental; urgency=low
 
