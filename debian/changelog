@@ -1,6 +1,7 @@
 print-manager (4:4.10.3-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Ignore lintian error about private library.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 22:35:36 +0200
 
