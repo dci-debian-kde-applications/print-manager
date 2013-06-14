@@ -2,6 +2,7 @@ print-manager (4:4.10.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Ignore lintian error about private library.
+  * Bump debhelper build-dep and compat to 9.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 19:39:04 +0200
 
