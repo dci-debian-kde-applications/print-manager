@@ -1,4 +1,4 @@
-print-manager (4:4.10.4-1) UNRELEASED; urgency=low
+print-manager (4:4.10.4-1) experimental; urgency=low
 
   * New upstream release.
   * Ignore lintian error about private library.
@@ -7,7 +7,7 @@ print-manager (4:4.10.4-1) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Update vcs fields.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 19:39:04 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 19:46:38 +0200
 
 print-manager (4:4.10.2-2) experimental; urgency=low
 
