@@ -1,6 +1,7 @@
 print-manager (4:4.11.3-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update build dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Nov 2013 00:00:55 +0100
 
