@@ -1,4 +1,4 @@
-print-manager (4:4.11.3-2) UNRELEASED; urgency=low
+print-manager (4:4.11.3-2) unstable; urgency=low
 
   * Merge with ubuntu package:
     + Add 02-add-print-manager.js to add applet to systray.
@@ -7,7 +7,7 @@ print-manager (4:4.11.3-2) UNRELEASED; urgency=low
   * Update copyright file.
   * Recommends cups. (Closes: #719796)
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Nov 2013 14:45:33 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Nov 2013 13:27:54 +0100
 
 print-manager (4:4.11.3-1) unstable; urgency=low
 
