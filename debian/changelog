@@ -5,6 +5,7 @@ print-manager (4:4.11.3-2) UNRELEASED; urgency=low
     - Diverge on patch ignore_scp_dbus_failures.diff.
     - Diverge on recommends system-config-printer-udev.
   * Update copyright file.
+  * Recommends cups. (Closes: #719796)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Nov 2013 14:45:33 +0100
 
