@@ -1,9 +1,9 @@
-print-manager (4:4.11.5-1) UNRELEASED; urgency=medium
+print-manager (4:4.11.5-1) unstable; urgency=medium
 
   * New upstream release.
   * Bump Standards-Version to 3.9.5, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 18:37:55 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 18:47:26 +0100
 
 print-manager (4:4.11.3-2) unstable; urgency=low
 
