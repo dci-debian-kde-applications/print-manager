@@ -25,7 +25,7 @@ the GNU General Public License:
   Debian systems in /usr/share/common-licenses/GPL-2.
 
 Files: configure-printer/PrinterOptions.cpp
-Copyright: 
+Copyright:
  Copyright 2010 Daniel Nicoletii <dantti12@gmail.com>
  Copyright 2007-2009 by Apple Inc.
  Copyright 1997-2007 by Easy Software Products.
