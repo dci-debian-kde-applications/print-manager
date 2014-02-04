@@ -1,3 +1,9 @@
+print-manager (4:4.11.5-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 18:37:55 +0100
+
 print-manager (4:4.11.3-2) unstable; urgency=low
 
   * Merge with ubuntu package:
