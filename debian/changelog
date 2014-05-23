@@ -1,8 +1,8 @@
-print-manager (4:4.13.1-1) UNRELEASED; urgency=medium
+print-manager (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 16:36:43 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 17:34:07 +0200
 
 print-manager (4:4.12.3-2) unstable; urgency=medium
 
