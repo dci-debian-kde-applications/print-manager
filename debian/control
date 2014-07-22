@@ -18,7 +18,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/print-manager.git
 Package: print-manager
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: cups
+Recommends: cups, system-config-printer
 Description: printer configuration and monitoring tools
  This package provides a KDE configuration module and a Plasma widget for
  installing and configuring printers, and monitoring printers, print jobs and
