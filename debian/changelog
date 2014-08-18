@@ -1,6 +1,6 @@
 print-manager (4:4.13.3-2~) UNRELEASED; urgency=medium
 
-  * New patch: activate_password_dialog
+  * New patch: activate_password_dialog (Closes: #756494)
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Aug 2014 11:58:36 +0000
 
