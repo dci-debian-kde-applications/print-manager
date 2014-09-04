@@ -1,2 +1,2 @@
 version=3
-ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/print-manager-([\d\.]*).tar.xz
+http://download.kde.org/stable/([\d.]+)/src/print-manager-([\d.]+).tar.xz
