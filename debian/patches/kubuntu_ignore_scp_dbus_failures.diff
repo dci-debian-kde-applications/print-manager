@@ -1,0 +1,32 @@
+Description: ignore_scp_dbus_failures
+ add ignore_scp_dbus_failures.diff for LP: #902762
+Forwarded: not-needed
+Origin: vendor, https://bugs.launchpad.net/ubuntu/+source/system-config-printer/+bug/902762
+Author: Jonathon Riddell <jr@kubuntu.org>
+====================================================================
+Index: print-manager-4.10.3/add-printer/DevicesModel.cpp
+===================================================================
+--- print-manager-4.10.3.orig/add-printer/DevicesModel.cpp	2013-05-25 00:21:30.000000000 +0000
++++ print-manager-4.10.3/add-printer/DevicesModel.cpp	2013-05-25 00:21:30.000000000 +0000
+@@ -341,7 +341,7 @@
+ {
+     kWarning() << error <<  message;
+     groupedDevicesFallback();
+-    emit errorMessage(i18n("Failed to group devices: '%1'",error.message()));
++    //    emit errorMessage(i18n("Failed to group devices: '%1'",error.message()));
+     emit loaded();
+ }
+ 
+Index: print-manager-4.10.3/libkcups/SelectMakeModel.cpp
+===================================================================
+--- print-manager-4.10.3.orig/libkcups/SelectMakeModel.cpp	2013-05-25 00:21:30.000000000 +0000
++++ print-manager-4.10.3/libkcups/SelectMakeModel.cpp	2013-05-25 00:21:30.000000000 +0000
+@@ -247,7 +247,7 @@
+     // Show the PPDs anyway
+     m_gotBestDrivers = true;
+     ui->messageWidget->setText(i18n("Failed to search for a recommended driver: '%1'", error.message()));
+-    ui->messageWidget->animatedShow();
++    //ui->messageWidget->animatedShow();
+     setModelData();
+ }
+ 
