@@ -1,2 +1,0 @@
-# Private library
-print-manager: postinst-must-call-ldconfig usr/lib/libkcupslib.so

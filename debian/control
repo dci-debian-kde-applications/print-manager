@@ -1,15 +1,29 @@
 Source: print-manager
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
+               extra-cmake-modules,
+               kio-dev,
                libcups2-dev (>= 1.5),
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5dbusaddons-dev,
+               libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5itemviews-dev,
+               libkf5kcmutils-dev,
+               libkf5notifications-dev,
+               libkf5widgetsaddons-dev,
+               libkf5windowsystem-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.12)
+               pkg-kde-tools (>= 0.12),
+               plasma-framework-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qttools5-dev
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/print-manager.git
@@ -18,7 +32,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/print-manager.git
 Package: print-manager
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: cups, system-config-printer
+Recommends: cups, system-config-printer-udev
 Description: printer configuration and monitoring tools
  This package provides a KDE configuration module and a Plasma widget for
  installing and configuring printers, and monitoring printers, print jobs and
