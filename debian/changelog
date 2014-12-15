@@ -1,9 +1,9 @@
-print-manager (4:14.12.0-0ubuntu1) UNRELEASED; urgency=medium
+print-manager (4:14.12.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Remove kdelibs5-dev depend version as there was not a new release.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 12 Dec 2014 12:07:04 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 16:59:16 +0100
 
 print-manager (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
