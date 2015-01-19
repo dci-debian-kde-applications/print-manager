@@ -26,13 +26,13 @@ Build-Depends: cmake,
                qttools5-dev
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/print-manager.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/print-manager.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/print-manager.git/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/print-manager.git
 
 Package: print-manager
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: cups, system-config-printer-udev
+Recommends: cups, system-config-printer, system-config-printer-udev
 Description: printer configuration and monitoring tools
  This package provides a KDE configuration module and a Plasma widget for
  installing and configuring printers, and monitoring printers, print jobs and
