@@ -31,12 +31,6 @@ print-manager (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 21 Nov 2014 15:43:58 +0000
 
-print-manager (4:4.50.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * KDE Frameworks 5 port
-
- -- Harald Sitter <apachelogger@kubuntu.org>  Mon, 01 Dec 2014 13:25:04 +0100
-
 print-manager (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
