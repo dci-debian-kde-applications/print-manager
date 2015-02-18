@@ -1,3 +1,9 @@
+print-manager (4:15.04.0~git20150217-0ubuntu1) vivid; urgency=medium
+
+  * New upstream snapshot
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Feb 2015 17:54:58 +0100
+
 print-manager (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
