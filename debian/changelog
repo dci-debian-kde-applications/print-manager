@@ -1,11 +1,11 @@
-print-manager (4:15.04.0~git20150217-1~) UNRELEASED; urgency=medium
+print-manager (4:15.04.0~git20150217-1) experimental; urgency=medium
 
   * New upstream snapshot (15.04.0~git20150217).
   * Update build dependencies to build against experimental and to
     follow cmake.
   * Update copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 10:21:53 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 19:17:29 +0100
 
 print-manager (4:15.04.0~git20150217-0ubuntu1) vivid; urgency=medium
 
