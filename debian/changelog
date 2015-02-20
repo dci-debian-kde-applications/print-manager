@@ -1,6 +1,6 @@
-print-manager (4:14.12.2-1~) UNRELEASED; urgency=medium
+print-manager (4:15.04.0~git20150217-1~) UNRELEASED; urgency=medium
 
-  * New upstream release (14.12.2).
+  * New upstream snapshot (15.04.0~git20150217).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 10:21:53 +0100
 
