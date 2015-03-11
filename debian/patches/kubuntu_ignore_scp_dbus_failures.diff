@@ -10,7 +10,7 @@ Index: print-manager/add-printer/DevicesModel.cpp
 +++ print-manager/add-printer/DevicesModel.cpp
 @@ -340,7 +340,7 @@ void DevicesModel::getGroupedDevicesFail
  {
-     kWarning() << error <<  message;
+     qWarning() << error <<  message;
      groupedDevicesFallback();
 -    emit errorMessage(i18n("Failed to group devices: '%1'",error.message()));
 +    //    emit errorMessage(i18n("Failed to group devices: '%1'",error.message()));
@@ -21,7 +21,7 @@ Index: print-manager/libkcups/SelectMakeModel.cpp
 ===================================================================
 --- print-manager.orig/libkcups/SelectMakeModel.cpp
 +++ print-manager/libkcups/SelectMakeModel.cpp
-@@ -247,7 +247,7 @@ void SelectMakeModel::getBestDriversFail
+@@ -250,7 +250,7 @@ void SelectMakeModel::getBestDriversFail
      // Show the PPDs anyway
      m_gotBestDrivers = true;
      ui->messageWidget->setText(i18n("Failed to search for a recommended driver: '%1'", error.message()));
