@@ -1,14 +1,7 @@
-print-manager (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release 
-  * Fix fuzz in patch kubuntu_ignore_scp_dbus_failures. 
-  * Fuzz again 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 11 Mar 2015 14:19:05 -0700
-
 print-manager (4:15.04.0~git20150217-0ubuntu1) vivid; urgency=medium
 
   * New upstream snapshot
+  * revert back to this, as new release wants kdelibs4...
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Feb 2015 17:54:58 +0100
 
