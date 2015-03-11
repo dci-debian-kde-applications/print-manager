@@ -21,7 +21,7 @@ Index: print-manager/libkcups/SelectMakeModel.cpp
 ===================================================================
 --- print-manager.orig/libkcups/SelectMakeModel.cpp
 +++ print-manager/libkcups/SelectMakeModel.cpp
-@@ -244,7 +244,7 @@ void SelectMakeModel::getBestDriversFail
+@@ -250,7 +250,7 @@ void SelectMakeModel::getBestDriversFail
      // Show the PPDs anyway
      m_gotBestDrivers = true;
      ui->messageWidget->setText(i18n("Failed to search for a recommended driver: '%1'", error.message()));
