@@ -1,11 +1,15 @@
-print-manager (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+print-manager (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
   * Revert patch changes. 
   * New upstream release
   * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 09:27:11 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 02:43:48 +0200
 
 print-manager (4:15.04.0~git20150217-0ubuntu1) vivid; urgency=medium
 
