@@ -1,2 +1,7 @@
+print-manager: binary-without-manpage usr/bin/configure-printer
+print-manager: binary-without-manpage usr/bin/kde-add-printer
+print-manager: binary-without-manpage usr/bin/kde-print-queue
 # Private library
+print-manager: shlib-without-versioned-soname usr/lib/*/libkcupslib.so libkcupslib.so
+print-manager: package-name-doesnt-match-sonames libkcupslib
 print-manager: postinst-must-call-ldconfig usr/lib/*/libkcupslib.so
