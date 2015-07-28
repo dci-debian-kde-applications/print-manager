@@ -1,4 +1,6 @@
-print-manager (4:15.04.3-1~) UNRELEASED; urgency=medium
+print-manager (4:15.04.3-1) experimental; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * New upstream release (15.04.0).
@@ -9,7 +11,7 @@ print-manager (4:15.04.3-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.3).
   * Update lintian overrides.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:05:14 +0200
+ -- Jeremy Lainé <jeremy.laine@m4x.org>  Tue, 28 Jul 2015 14:49:32 +0200
 
 print-manager (4:15.04.0~git20150217-1) experimental; urgency=medium
 
