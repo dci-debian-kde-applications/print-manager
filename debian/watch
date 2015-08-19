@@ -1,2 +1,3 @@
 version=3
 http://download.kde.org/stable/applications/([\d.]+)/src/print-manager-([\d.]+).tar.xz
+http://download.kde.org/unstable/applications/([\d.]+)/src/print-manager-([\d.]+).tar.xz
