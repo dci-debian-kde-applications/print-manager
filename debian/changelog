@@ -1,3 +1,13 @@
+print-manager (4:15.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+  * New upstream release
+  * Drop Qt5 package version requirements to 5.3, to match what is required in
+    CMakeLists.txt
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 07 Sep 2015 14:53:56 -0400
+
 print-manager (4:15.04.3-1) experimental; urgency=medium
 
   * Team upload.
