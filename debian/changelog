@@ -1,8 +1,27 @@
-print-manager (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+print-manager (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Merged with Debian
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:43:01 +0000
+ -- Clive Johnston <clivejo@aol.com>  Mon, 08 Feb 2016 18:51:36 +0000
+
+print-manager (4:15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:22:37 +0100
+
+print-manager (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:38:49 +0100
+
+print-manager (4:15.08.2-1) unstable; urgency=medium
+
+  * New upstream release (15.08.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:07:21 +0200
 
 print-manager (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -11,11 +30,27 @@ print-manager (4:15.08.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 13:06:28 +0100
 
+print-manager (4:15.08.1-1) unstable; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 02:45:15 +0200
+
 print-manager (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:46:31 +0100
+
+print-manager (4:15.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+  * New upstream release
+  * Drop Qt5 package version requirements to 5.3, to match what is required in
+    CMakeLists.txt
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 07 Sep 2015 14:53:56 -0400
 
 print-manager (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -28,6 +63,21 @@ print-manager (4:15.07.90-0ubuntu1) wily; urgency=medium
   * new upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 12:32:52 +0100
+
+print-manager (4:15.04.3-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.04.2).
+
+  [ Jeremy Lainé ]
+  * New upstream release (15.04.3).
+  * Update lintian overrides.
+
+ -- Jeremy Lainé <jeremy.laine@m4x.org>  Tue, 28 Jul 2015 14:49:32 +0200
 
 print-manager (4:15.04.2-0ubuntu1) wily; urgency=medium
 
@@ -42,6 +92,15 @@ print-manager (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 22:43:07 +0200
 
+print-manager (4:15.04.0~git20150217-1) experimental; urgency=medium
+
+  * New upstream snapshot (15.04.0~git20150217).
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 19:17:29 +0100
+
 print-manager (4:15.04.0~git20150217-0ubuntu1) vivid; urgency=medium
 
   * New upstream snapshot
@@ -52,9 +111,9 @@ print-manager (4:15.04.0~git20150217-0ubuntu1) vivid; urgency=medium
 print-manager (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-    
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:15:47 -0800
 
 print-manager (4:14.12.0-0ubuntu1) vivid; urgency=medium
@@ -72,7 +131,7 @@ print-manager (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 print-manager (4:14.11.95-0ubuntu2) vivid; urgency=medium
 
-  * Fix Watch file applications locations 
+  * Fix Watch file applications locations
   * Fix VCS for new kde-applications location
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 24 Nov 2014 07:28:04 -0800
@@ -480,4 +539,3 @@ print-manager (0.1.0+git20120813-0ubuntu1) quantal; urgency=low
   * Add kubuntu_01_cups_1.6.diff to turn on CUPS 1.6 API support
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 13 Aug 2012 15:41:34 +0100
-
