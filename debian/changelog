@@ -1,3 +1,9 @@
+print-manager (4:15.12.2-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.12.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:46:22 +0100
+
 print-manager (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
