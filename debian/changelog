@@ -1,9 +1,9 @@
-print-manager (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+print-manager (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * New upstream release
   * Merged with Debian
 
- -- Clive Johnston <clivejo@aol.com>  Mon, 08 Feb 2016 18:51:36 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 11:35:25 +0100
 
 print-manager (4:15.12.0-1) experimental; urgency=medium
 
