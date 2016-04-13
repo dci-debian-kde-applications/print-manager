@@ -1,3 +1,12 @@
+print-manager (4:15.12.3-1~1.gbp9578e9) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9578e9a60f6fd48218349b34fccd4e0463ba3fc9 **
+
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:04:02 +0200
+
 print-manager (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
