@@ -1,11 +1,12 @@
-print-manager (4:15.12.3-1~1.gbp9578e9) UNRELEASED; urgency=medium
+print-manager (4:16.04.0-1~1.gbp65c262) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9578e9a60f6fd48218349b34fccd4e0463ba3fc9 **
+  ** SNAPSHOT build @65c26299af24d128038379de44568825d1f6de4c **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:04:02 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 05:02:15 +0200
 
 print-manager (4:15.12.0-1) experimental; urgency=medium
 
