@@ -1,8 +1,11 @@
-print-manager (4:15.12.2-1~) UNRELEASED; urgency=medium
+print-manager (4:16.04.0-1~1.gbp65c262) UNRELEASED; urgency=medium
 
-  * New upstream release (15.12.2).
+  ** SNAPSHOT build @65c26299af24d128038379de44568825d1f6de4c **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:46:22 +0100
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 05:02:15 +0200
 
 print-manager (4:15.12.0-1) experimental; urgency=medium
 
