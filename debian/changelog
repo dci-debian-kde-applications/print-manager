@@ -1,9 +1,6 @@
-print-manager (4:16.04.1-1~1.gbp408ea0) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @408ea032f342349057f3eb4a78ef73f56135a727 **
+print-manager (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @65c26299af24d128038379de44568825d1f6de4c **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
@@ -12,9 +9,8 @@ print-manager (4:16.04.1-1~1.gbp408ea0) UNRELEASED; urgency=medium
   * New upstream release (15.12.2).
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 23:02:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 02:28:47 +0200
 
 print-manager (4:15.12.0-1) experimental; urgency=medium
 
