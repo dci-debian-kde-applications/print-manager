@@ -5,3 +5,4 @@ print-manager: binary-without-manpage usr/bin/kde-print-queue
 print-manager: shlib-without-versioned-soname usr/lib/*/libkcupslib.so libkcupslib.so
 print-manager: package-name-doesnt-match-sonames libkcupslib
 print-manager: postinst-must-call-ldconfig usr/lib/*/libkcupslib.so
+print-manager: package-must-activate-ldconfig-trigger usr/lib/*/libkcupslib.so
