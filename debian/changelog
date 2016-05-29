@@ -1,3 +1,11 @@
+print-manager (4:16.04.1-2~1.gbp9ce7f0) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9ce7f0ad80af41ba4f69bce9c600d5c88b6dca0d **
+
+  * Add new libkcupslib.so lintian-override
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 29 May 2016 15:02:27 +0200
+
 print-manager (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
