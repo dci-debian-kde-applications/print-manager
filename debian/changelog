@@ -1,9 +1,14 @@
-print-manager (4:16.04.1-2) UNRELEASED; urgency=medium
+print-manager (4:16.04.1-2~1.gbp9ce7f0) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @9ce7f0ad80af41ba4f69bce9c600d5c88b6dca0d **
+
+  * Add new libkcupslib.so lintian-override
+  
+  [ Felix Geyer ]
   * Recommend system-config-printer-common instead of system-config-printer.
     - The backend has been moved to -common.
 
- -- Felix Geyer <fgeyer@debian.org>  Wed, 22 Jun 2016 17:52:51 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 29 May 2016 15:02:27 +0200
 
 print-manager (4:16.04.1-1) unstable; urgency=medium
 
