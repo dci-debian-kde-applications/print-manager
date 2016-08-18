@@ -1,10 +1,11 @@
-print-manager (4:16.04.3-1~1.gbp930a89) UNRELEASED; urgency=medium
+print-manager (4:16.08.0-1~1.gbpa1d5f8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @930a890685f51c05c6616ae77f5eb39db4a1b423 **
+  ** SNAPSHOT build @a1d5f841c299f66166c29fb97301c541827af472 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 23:02:15 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:02:13 +0200
 
 print-manager (4:16.04.1-2) unstable; urgency=medium
 
