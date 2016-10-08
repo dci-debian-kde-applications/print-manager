@@ -1,2 +1,3 @@
 kubuntu_ignore_scp_dbus_failures.diff
 activate_password_dialog
+971e759-fix-FTBFS-against-cups-2.2.patch
