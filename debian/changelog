@@ -1,14 +1,18 @@
-print-manager (4:16.08.0-1~1.gbpa1d5f8) UNRELEASED; urgency=medium
+print-manager (4:16.08.0-1~2.gbpda995a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a1d5f841c299f66166c29fb97301c541827af472 **
+  ** SNAPSHOT build @da995aa3012a08cb7a41019895913206faffc8ca **
 
   * UNRELEASED
   * UNRELEASED
 
   [ Didier Raboud ]
   * Backport upstream patch to fix FTBFS against CUPS >= 2.2 (Closes: #838738)
+  * Backport upstream patch to fix FTBFS against CUPS >= 2.2 (Closes: #838738)
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:02:13 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Didier Raboud <odyx@debian.org>  Sat, 08 Oct 2016 20:02:28 +0200
 
 print-manager (4:16.04.1-2) unstable; urgency=medium
 
