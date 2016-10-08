@@ -5,6 +5,9 @@ print-manager (4:16.08.0-1~1.gbpa1d5f8) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
 
+  [ Didier Raboud ]
+  * Backport upstream patch to fix FTBFS against CUPS >= 2.2 (Closes: #838738)
+
  -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:02:13 +0200
 
 print-manager (4:16.04.1-2) unstable; urgency=medium
