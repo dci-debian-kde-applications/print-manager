@@ -1,3 +1,9 @@
+print-manager (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:41:40 +0000
+
 print-manager (4:16.08.1-0neon) xenial; urgency=medium
 
   * New release
