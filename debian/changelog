@@ -1,10 +1,8 @@
-print-manager (4:16.08.3-1~1.gbp58a426) UNRELEASED; urgency=medium
+print-manager (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @58a426acc9c5de4cd681a82f02300afe2992bcd4 **
+  * New upstream release (16.08.3)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 23:02:13 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 22:04:52 +0100
 
 print-manager (4:16.08.2-1) unstable; urgency=medium
 
