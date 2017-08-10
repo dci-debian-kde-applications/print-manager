@@ -34,6 +34,8 @@ Package: print-manager
 Architecture: any
 Depends: plasma-framework, ${misc:Depends}, ${shlibs:Depends}
 Recommends: cups, system-config-printer, system-config-printer-udev
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: printer configuration and monitoring tools
  This package provides a KDE configuration module and a Plasma widget for
  installing and configuring printers, and monitoring printers, print jobs and
