@@ -6,6 +6,8 @@ print-manager (4:17.08.3-0r1) UNRELEASED; urgency=medium
     drop translations.
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
+  * Remove unused libkf5itemviews-dev, and plasma-framework-dev build
+    dependencies.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Dec 2017 17:02:10 +0100
 
